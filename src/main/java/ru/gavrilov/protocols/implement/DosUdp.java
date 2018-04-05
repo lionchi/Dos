@@ -1,7 +1,7 @@
 package ru.gavrilov.protocols.implement;
 
-/**
- * Created by DDD on 05.04.2018.
- */
-public class DosUdp {
+
+import ru.gavrilov.protocols.abstracts.UDP;
+
+public class DosUdp extends UDP {
 }
