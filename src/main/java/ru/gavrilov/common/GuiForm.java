@@ -12,7 +12,7 @@ public class GuiForm<P extends Parent, C extends Controller> {
 
     public GuiForm(String[] filePath) {
         try {
-            StringBuilder builder = new StringBuilder("ui");
+            StringBuilder builder = new StringBuilder("forms");
             for (String pack : filePath) {
                 builder.append("/");
                 builder.append(pack);
