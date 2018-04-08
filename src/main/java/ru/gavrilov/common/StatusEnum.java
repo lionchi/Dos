@@ -2,7 +2,8 @@ package ru.gavrilov.common;
 
 public enum  StatusEnum {
     ATTACK("Атакую"),
-    STOP("Атака завершена"),
+    STOP("Атака остановлена"),
+    FINISHED("Атака завершена"),
     OTHER("Подготовка к атаке");
 
     private String status;

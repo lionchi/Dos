@@ -24,7 +24,7 @@
       <Label layoutX="74.0" layoutY="108.0" text="Порт" />
       <Label layoutX="28.0" layoutY="153.0" text="Часы" />
       <Label layoutX="114.0" layoutY="153.0" text="Минуты" />
-      <TextArea fx:id="log" layoutX="402.0" layoutY="3.0" prefHeight="214.0" prefWidth="284.0" />
+      <TextArea fx:id="log" layoutX="402.0" layoutY="3.0" prefHeight="214.0" prefWidth="284.0" wrapText="true" />
       <Separator layoutX="183.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="220.0" />
       <Separator layoutX="-11.0" layoutY="216.0" prefWidth="196.0" />
       <Separator layoutX="185.0" layoutY="216.0" prefWidth="200.0" />
